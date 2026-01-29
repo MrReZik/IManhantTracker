@@ -50,7 +50,9 @@ messages:
   target-diff-world: "&c&lWARNING: &eTarget is in another dimension!"
   only-players: "&cOnly players can use this command."
 
-## ✨ Особенности
+---
+
+### ✨ Особенности
 
 * **⚡ Мультиверсионность:** Работает на всех ядрах (Spigot/Paper) от **1.8.8** до **1.21+**.
 * **🌍 Поддержка измерений:**
