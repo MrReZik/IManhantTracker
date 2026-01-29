@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.mrrezik'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven {
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
+    maven {
+        url = 'https://oss.sonatype.org/content/repositories/snapshots'
+    }
+}
+
+dependencies {
+    // Используем API 1.18.2 как запрошено, но методы будем брать старые
+    compileOnly 'org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT'
+}
+
+java {
+    // Мы используем JDK 17 для компиляции
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    // ВАЖНО: Это делает байт-код совместимым с Java 8 (для серверов 1.8 - 1.16.5)
+    options.release.set(8)
+    options.encoding = 'UTF-8'
+}
+
+processResources {
+    def props = [version: version]
+    inputs.properties props
+    filteringCharset 'UTF-8'
+    filesMatching('plugin.yml') {
+        expand props
+    }
+}

@@ -1,0 +1,14 @@
+# Конфигурация Advanced Manhunt Tracker
+
+compass-name: "&c&lКомпас Охотника"
+compass-lore:
+  - "&7Этот компас указывает на:"
+  - "&e%player%"
+  - "&7Нажмите ПКМ, чтобы обновить."
+
+messages:
+  target-set: "&aЦель установлена: &e%player%"
+  target-reset: "&cЦель сброшена."
+  target-offline: "&cИгрок не найден или не в сети."
+  target-diff-world: "&c&lВНИМАНИЕ: &eЦель находится в другом измерении!"
+  only-players: "&cЭту команду может использовать только игрок."

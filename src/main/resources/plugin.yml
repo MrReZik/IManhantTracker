@@ -1,0 +1,11 @@
+name: IManhuntTracker
+version: ${version}
+Author: MrReZik
+main: com.mrrezik.iManhuntTracker.IManhuntTracker
+api-version: 1.13
+commands:
+  tracker:
+    description: Установить цель для компаса
+    usage: /tracker <ник> или /tracker для сброса
+    permission: manhunt.use
+    permission-message: У вас нет прав!
