@@ -1,4 +1,4 @@
-# 🧭 Advanced Manhunt Tracker
+# 🧭 IManhuntTracker
 
 [![Version](https://img.shields.io/badge/Version-1.0-blue.svg)](https://github.com/MrReZik/AdvancedManhuntTracker/releases)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.8--1.21-green.svg)](https://www.spigotmc.org/)
