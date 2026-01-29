@@ -6,14 +6,6 @@
 [![Author](https://img.shields.io/badge/Author-MrReZik-red.svg)](https://github.com/MrReZik)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)](LICENSE)
 
-> **Choose Language / Выберите язык:**
->
-> [🇺🇸 English](#-english-version) | [🇷🇺 Русский](#-russian-version)
-
----
-
-## 🇺🇸 English Version
-
 **IManhuntTracker** is a lightweight and optimized plugin for the "Manhunt" game mode. It adds a functional compass that tracks a target player in real-time, with support for all dimensions (Nether/End) and Minecraft versions ranging from 1.8 to 1.21.
 
 ### ✨ Features
